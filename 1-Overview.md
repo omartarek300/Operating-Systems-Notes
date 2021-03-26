@@ -58,6 +58,10 @@ policy has changed to not exceed 40m/s will this affect the mechanism? No.)
 	- Where will the OS be used?
     - What will the user want to execute on that machine?
     - What are the workload requirements?
+ so the process is as follows:
+ 	1- select the common case(goals)
+	2- select the best policy for that
+	3- then select mechanisms
     
 ## User/ Kernel Protection Boundary
 
