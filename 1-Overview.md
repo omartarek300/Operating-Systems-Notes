@@ -35,9 +35,9 @@ LINUX | Symbian
 
 - **Abstractions** (corresponds to applications that OS executes)
 	- process, thread, file, socket,  memory page
-- **Mechanisms**  (on top of Abstractions)
+- **Mechanisms**  (on top of Abstractions)"How to do something"
 	- create, schedule, open, write, allocate
-- **Policies** (how mechanisms are used to manage underlying hardware)    
+- **Policies** (how mechanisms are used to manage underlying hardware)"What will be done"   
 	- Least Recently Used (LRU) , Earliest Deadline First (EDF), etc.
     
 #### Example :
@@ -50,7 +50,8 @@ _Memory Management:_
 
 ## OS Design Principles
 
-- Seperation of mechanism and policy
+- Seperation of mechanism and policy(to make the mechanism and polices not affected by changes in each other EX: Car mechanism -> moving forward - Policy -> not exceed 50m/s 
+policy has changed to not exceed 40m/s will this affect the mechanism? No.)
 	- implement flexible mechanisms to support many policies 
     - e.g. LRU, LFU, random
 - Optimize for common case 
