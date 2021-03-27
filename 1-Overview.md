@@ -107,10 +107,15 @@ Device Manipulation | ioctl(); read(); write();
 Information Maintenance | getpid(); alarm(); sleep();
 Communication | pipe(); shmget(); mmap();
 Protection | chmod(); umask(); chown();
+## Monolithic OS
+![Untitled](https://user-images.githubusercontent.com/22604374/112726986-daf6c000-8f28-11eb-87e1-f6ca7d93e268.png)
 
-## Modular OS
-	
+## Modular OS	
 ![Untitled](https://user-images.githubusercontent.com/22604374/112726545-b13c9980-8f26-11eb-8719-34bd55f44254.png)
+
+## MicroKernel
+![Untitled](https://user-images.githubusercontent.com/22604374/112726929-84898180-8f28-11eb-91e4-53340dd19808.png)
+
 
 
 ## Linux Architecture 
