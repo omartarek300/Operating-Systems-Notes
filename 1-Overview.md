@@ -89,7 +89,7 @@ policy has changed to not exceed 40m/s will this affect the mechanism? No.)
 - In synchronous mode : wait until system call completes.
 
 ## Basic OS services
-
+(Services each on of them is responsible for a specific hardware like schedular & memory manager)
 * process management
 * file management
 * device management
