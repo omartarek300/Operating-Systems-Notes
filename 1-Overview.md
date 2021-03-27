@@ -108,6 +108,11 @@ Information Maintenance | getpid(); alarm(); sleep();
 Communication | pipe(); shmget(); mmap();
 Protection | chmod(); umask(); chown();
 
+## Modular OS
+	
+![Untitled](https://user-images.githubusercontent.com/22604374/112726545-b13c9980-8f26-11eb-8719-34bd55f44254.png)
+
+
 ## Linux Architecture 
 
 ![linuxarchitecture](images/linuxarch.png)
